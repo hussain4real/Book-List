@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hussain4real/Book-List/issues"
   },
-  "homepage": "https://github.com/hussain4real/Book-List#readme"
+  "homepage": "https://github.com/hussain4real/Book-List#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }
