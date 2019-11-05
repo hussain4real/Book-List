@@ -1,0 +1,19 @@
+{
+  "name": "book-list",
+  "version": "1.0.0",
+  "description": "app to display books read",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hussain4real/Book-List.git"
+  },
+  "author": "Hussain Aminu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hussain4real/Book-List/issues"
+  },
+  "homepage": "https://github.com/hussain4real/Book-List#readme"
+}
