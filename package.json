@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "app to display books read",
   "main": "app.js",
-  "homepage":"https://hussain4real.github.io/Book-List",
+  "homepage": "https://hussain4real.github.io/Book-List",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy":"gh-pages -d src"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/hussain4real/Book-List/issues"
   },
-  
+  "homepage": "https://github.com/hussain4real/Book-List#readme",
   "dependencies": {
     "gh-pages": "^2.1.1"
   }
