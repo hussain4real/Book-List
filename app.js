@@ -42,12 +42,38 @@ class UI {
       `;
     list.appendChild(row);
   }
+
+  static clearFields() {
+    document.querySelector('#title').value = '';
+    document.querySelector('#author').value = '';
+    document.querySelector('#isbn').value = '';
+  }
 }
 
 // Store Class: Handles Storage
 
 // Event: Display Books
+document.addEventListener('DOMContentLoaded', UI.displayBooks);
 
 // Event: Add a Book
+document.querySelector('#book-form').addEventListener('submit', e => {
+  // prevent actual submit
+  e.preventDefault();
+
+  // Get form values
+  const title = document.querySelector('#title').value;
+  const author = document.querySelector('#author').value;
+  const isbn = document.querySelector('#isbn').value;
+
+  // instantiate book
+
+  const book = new Book(title, author, isbn);
+
+  // Add Book to UI
+  UI.addBookToList(book);
+
+  // Clear fields on submit
+  UI.clearFields();
+});
 
 // Event: Remove a Book
